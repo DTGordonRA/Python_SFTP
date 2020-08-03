@@ -4,3 +4,7 @@ hostname =
 [key]
 location = 
 pass = 
+
+[user]
+username = 
+password = 

@@ -3,8 +3,7 @@ Setup:
 2) Run command {python -m venv sftp_venv}
 3) Run command {sftp\Scripts\activate.bat}
 4) Run command {pip install -r requirements.txt}
-	If you intend to use this script after setup skip
-	Use step 1.
+	If you intend to use this script after setup skip Use step 1.
 
 Use:  
 1) Activate venv: {sftp_venv\Scripts\activate.bat}
