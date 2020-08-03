@@ -1,13 +1,6 @@
 import configparser
 import pysftp
 import sys
-import os
-import virtualenv
-
-venv_dir = os.path.join(os.path.dirname(__file__), 'sftp_env')
-virtualenv.create_environment(venv_dir)
-# TODO change bin to Scripts an activate_this.py to activate.bat in windows version
-exec(open(os.path.join(venv_dir, 'bin', 'activate_this.py')).read())
 
 config = configparser.ConfigParser()
 config.read('config.txt')
