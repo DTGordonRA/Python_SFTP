@@ -1,0 +1,6 @@
+[host]
+hostname = 
+
+[key]
+location = 
+pass = 
